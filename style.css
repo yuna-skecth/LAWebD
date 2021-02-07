@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+/*    font-family: 'Yusei Magic', sans-serif;*/
+     font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+#header{
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    background:#F47684;
+    padding: 10px 0px;
+    z-index: 5;
+}
+
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+
+#header h1{
+    color: #fffffe;
+    float: left;
+    padding-right: 20px;
+    font-family: 'Yusei Magic', sans-serif;
+   
+}
+
+nav{
+    overflow: hidden:white;
+}
+
+nav li{
+    list-style-type: none;
+    float: left;
+    
+}
+
+nav a{
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin:14px 20px 0px;
+    transition:0.6s;
+    
+}
+
+nav a:hover{
+    border-bottom: 3px solid  #fffffe;
+}
+
+
+
+#main{
+    width:100%;
+    overflow: hidden;
+}
+
+.section1{
+    width: 100%;
+    background-color: #F5F5F5;
+    height: 700px;
+    position: relative;
+/*    overflow: hidden;*/
+/*    margin: 0 auto;*/
+    
+   
+}
+
+
+#section1 img{
+    float: left;
+    position: relative;
+}
+
+.main-visual{
+    width: 350px;
+    margin: 0 auto;  
+    padding-top: 100px;
+    padding-left: 100px;
+    display: block;
+   
+}
+
+.left-box{
+    float: left;
+    width: 500px;
+}
+
+
+}
+
+h1{
+    font-family:  'Sriracha', cursive;
+    color: #F47684;
+    
+}
+
+.section1 h1{ 
+    font-family:  'Sriracha', cursive;
+    color: #F47684;
+    
+}
+
+.Firstname{
+    left: 170px;
+     top: 230px;
+    font-size: 170px;
+    position: absolute;
+    z-index: 2;
+ 
+}
+
+/*
+.Lastname{
+    left: 400px;
+    top: 300px;
+    font-size: 150px;
+    position: absolute;
+    z-index:2;
+   
+}
+*/
+
+p.welcome{
+    width: 500px;
+    font-size: 30px;
+    color: #373C38;
+/*        #F1E8E3;*/
+    display: block;
+    margin-top: 470px;
+    margin-left: 270px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    
+}
+
+#section2{
+    background-color: #F1E8E3;
+    width:100%;
+    height:500px;
+    position: relative;
+}
+
+#section2 img{
+    float: left;
+}
+
+#section2. img{
+    margin: 0 auto;
+}
+
+.contents2 {
+    width:1000px;
+    margin: auto;
+    padding-top:100px;
+    overflow: hidden;
+   
+}
+
+#section2 .right-box{
+    width: 550px;
+    overflow: hidden;
+    padding-left: 80px;
+}
+
+h2{
+       color:#F47684;
+    font-family: 'Sriracha', cursive;
+}
+
+#section2 h2{
+    font-size: 60px;
+}
+
+.whoiam{
+    margin-top: -60px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.intro {
+    margin-top: 50px;
+    margin-left: 70px;
+   
+}
+
+.intro p{
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 
+600;/*        'M PLUS Rounded 1c', sans-serif;*/
+/*        'Yusei Magic', sans-serif;*/
+    color: #373C38;
+
+}
+
+#section3{
+/*    overflow: hidden;*/
+    background-color:#F5F5F5;
+    width:100%;
+    position: relative;
+    height: 750px;
+    
+}
+
+
+.uppercontents{
+    width: 1090px;
+    padding-top: 80px;
+    margin: 0 auto;
+    height: 600px;
+/*    background-color: red;*/
+   
+    
+}
+.article{
+    width:300px;
+/*    overflow: hidden;*/
+   
+    background-color:   #F1E8E3;
+    height:550px;
+    float: left;
+    margin-left: 28px;
+    margin-right: 28px;
+    text-align: center;
+   
+}
+
+.article img{
+    margin-top: 15px;
+}
+
+.title{
+    font-size: 30px;
+    overflow: hidden;
+/*    display: block;*/
+   
+}
+
+.explanation{
+    margin-top: 20px;
+    margin-right:30px;
+    margin-left:30px;
+    font-size: 20px;
+    color:  #373C38;
+    text-align: left;
+    font-weight: 500;
+}
+
+
+
+.title{
+    border-bottom: 3px solid #F47684;
+}
+
+.article {
+    text-align: center;
+}
+.article span.title{
+     font-family: 'Yusei Magic', sans-serif;
+     color:  #373C38;
+}
+
+.article a.button{
+    position: absolute;
+    font-size: 20px;
+    color: #F5F5F5;
+    width: 200px;
+    height: 35px;
+    background-color: #F47684;
+    text-align: center;
+    display: block;
+    line-height: 40px;
+    margin-left: 50px;
+    margin-top: 50px;
+    border: 1px solid #F47684;
+    transition: 0.8s;
+    text-decoration: none;
+  
+}
+
+.article a.button:hover{
+    background-color: #F5F5F5;
+    color: #F47684;
+}
+
+#article2 a.button{
+    font-size: 15px;
+}
+
+#section4{
+    width: 100%;
+    height:200px;
+    background-color:  #F1E8E3;
+    position: relative;
+}
+
+h2.sns{
+    position: absolute;
+    font-size: 50px;
+    width: 100px;
+
+    margin-left: 480px;
+    padding-top: 50px;
+
+    float: left;   
+}
+
+.logo{
+    width: 200;
+    margin-left: 600px;
+    padding-top: 23px;
+}
+
+
+.logo img{
+    -webkit-transition: transform 0.4s;
+    -o-transition: transform 0.4s;
+    transition: transform 0.4s;
+}
+
+.logo img:hover{
+     -webkit-transform: translateY(-10%);
+    -ms-transform: translateY(-10%);
+    -ms-transform: translateY(-10%);
+    -o-transform: translateY(-10%);
+    transform: translateY(-10%);
+    
+   
+}
+
+i
+/*
+.lowercontents{
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+}
+*/
+
