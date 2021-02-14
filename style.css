@@ -1,3 +1,9 @@
+/*color
+濃いピンク　#F47684;
+薄いピンク　 #F1E8E3
+白#F5F5F5
+*/
+
 *{
     margin: 0;
     padding: 0;
@@ -20,16 +26,16 @@
     
 }
 
+
 #header h1{
-    color: #fffffe;
+    color:#F5F5F5;
     float: left;
     padding-right: 20px;
-    font-family: 'Yusei Magic', sans-serif;
-   
+    font-family: 'Yusei Magic', sans-serif;   
 }
 
 nav{
-    overflow: hidden:white;
+    overflow: hidden;
 }
 
 nav li{
@@ -63,80 +69,131 @@ nav a:hover{
     width: 100%;
     background-color: #F5F5F5;
     height: 700px;
-    position: relative;
-/*    overflow: hidden;*/
-/*    margin: 0 auto;*/
-    
-   
+    position: relative;   
+    z-index: 0;
 }
 
+.box1{
+    width:80%;
+    height: 700px;
+/*    background-color: blue;*/
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-#section1 img{
-    float: left;
-    position: relative;
-}
-
-.main-visual{
-    width: 350px;
-    margin: 0 auto;  
-    padding-top: 100px;
-    padding-left: 100px;
-    display: block;
-   
-}
-
-.left-box{
-    float: left;
-    width: 500px;
-}
-
-
-}
-
-h1{
-    font-family:  'Sriracha', cursive;
-    color: #F47684;
     
 }
+
+.textbox1{
+    width: 650px;
+    overflow:hidden;
+    text-align: center;
+}
+
 
 .section1 h1{ 
     font-family:  'Sriracha', cursive;
     color: #F47684;
-    
-}
-
-.Firstname{
-    left: 170px;
-     top: 230px;
     font-size: 170px;
-    position: absolute;
-    z-index: 2;
- 
+    line-height:200px;
+    text-shadow: 15px 8px 2px  #F1E8E3;
+/*    background:black;*/
+        z-index: 1;
 }
-
-/*
-.Lastname{
-    left: 400px;
-    top: 300px;
-    font-size: 150px;
-    position: absolute;
-    z-index:2;
-   
-}
-*/
 
 p.welcome{
-    width: 500px;
+/*    width: 500px;*/
     font-size: 30px;
     color: #373C38;
-/*        #F1E8E3;*/
     display: block;
-    margin-top: 470px;
-    margin-left: 270px;
+/*    margin-top: 470px;*/
+/*    margin-left: 270px;*/
     font-family: 'M PLUS Rounded 1c', sans-serif;
     
 }
 
+
+.section1 img{
+    border-radius: 35px;
+    width: 350px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.visual{
+      box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+}
+
+
+#circle{
+    background:#F1E8E3;
+    opacity:0.5; 
+    position: absolute;
+    z-index: -1;
+     border-radius: 50%;
+}
+
+.circle1{
+    width: 200px;
+    height:200px;
+    top:10px;
+    left: 140px;
+}
+
+.circle2{
+    width: 130px;
+    height:130px;
+    top:540px;
+    left: -20px;
+}
+
+.circle3{
+    width: 130px;
+    height:130px;
+    top:350px;
+    left: 320px;
+}
+
+.circle4{
+    width: 200px;
+    height:200px;
+    top:500px;
+    left: 600px;
+}
+
+.circle5{
+    width: 130px;
+    height:130px;
+    top:20px;
+    left: 690px;
+}
+
+.circle6{
+    width: 200px;
+    height:200px;
+    top:180px;
+    left: 880px;
+}
+
+.circle7{
+    width: 130px;
+    height:130px;
+    top:420px;
+    left: 1230px;
+}
+
+.circle8{
+    width: 130px;
+    height:130px;
+    top:110px;
+    left: 1400px;
+}
+
+
+
+
+/*who am I ? のセクション*/
 #section2{
     background-color: #F1E8E3;
     width:100%;
@@ -144,142 +201,147 @@ p.welcome{
     position: relative;
 }
 
-#section2 img{
-    float: left;
-}
-
-#section2. img{
+.box2 {
+    width:70%;
+    height:500px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+
+#section2 .box2 img{
+    border-radius: 20px;
+    object-fit: cover;
+    height: 340px;
+    width: 340px;
 }
 
-.contents2 {
-    width:1000px;
-    margin: auto;
-    padding-top:100px;
+
+.textbox2 {
     overflow: hidden;
-   
 }
 
-#section2 .right-box{
-    width: 550px;
-    overflow: hidden;
-    padding-left: 80px;
-}
 
-h2{
-       color:#F47684;
-    font-family: 'Sriracha', cursive;
-}
-
-#section2 h2{
+.textbox2  h2{  
     font-size: 60px;
-}
+    color:#F47684;
+    font-family: 'Sriracha', cursive;
 
-.whoiam{
-    margin-top: -60px;
-    overflow: hidden;
-    position: absolute;
-}
 
-.intro {
-    margin-top: 50px;
-    margin-left: 70px;
-   
-}
+    }
 
-.intro p{
-    margin-bottom: 15px;
+
+.textbox2 .intro p{
     font-size: 30px;
     font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-weight: 
-600;/*        'M PLUS Rounded 1c', sans-serif;*/
+    font-weight: 600;/*        'M PLUS Rounded 1c', sans-serif;*/
 /*        'Yusei Magic', sans-serif;*/
+    line-height: 59px;
     color: #373C38;
-
 }
+
+.intro{
+/*    padding-top: 30px;*/
+}
+
+
+/*好きなことセクション*/
 
 #section3{
 /*    overflow: hidden;*/
     background-color:#F5F5F5;
     width:100%;
     position: relative;
-    height: 750px;
+    overflow: hidden;
     
 }
 
-
-.uppercontents{
-    width: 1090px;
-    padding-top: 80px;
+.box3{
     margin: 0 auto;
-    height: 600px;
-/*    background-color: red;*/
+    overflow: hidden;
    
-    
 }
+
+.upperbox{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    padding-top: 132px;
+    padding-bottom: 100px;
+}
+
+.bottombox{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    padding-bottom: 120px;
+
+}
+
+
 .article{
     width:300px;
-/*    overflow: hidden;*/
-   
     background-color:   #F1E8E3;
     height:550px;
-    float: left;
-    margin-left: 28px;
-    margin-right: 28px;
-    text-align: center;
-   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .2);
+
 }
 
 .article img{
     margin-top: 15px;
+    border-radius: 25px;
 }
 
-.title{
-    font-size: 30px;
-    overflow: hidden;
-/*    display: block;*/
-   
+.article h3{
+     font-size: 30px;
+     border-bottom: 3px solid #F47684;
+     font-family: 'Yusei Magic', sans-serif;
+     color:  #373C38;
+     position: absolute;
+     top: 300px;
 }
+
 
 .explanation{
-    margin-top: 20px;
+    margin-top: -100px;
     margin-right:30px;
     margin-left:30px;
-    font-size: 20px;
+    font-size: 18px;
     color:  #373C38;
     text-align: left;
     font-weight: 500;
+    position: absolute;
+    top: 460px;
+
 }
 
-
-
-.title{
-    border-bottom: 3px solid #F47684;
-}
-
-.article {
-    text-align: center;
-}
-.article span.title{
-     font-family: 'Yusei Magic', sans-serif;
-     color:  #373C38;
-}
 
 .article a.button{
     position: absolute;
-    font-size: 20px;
+    bottom: -20px;
+    font-size: 17px;
     color: #F5F5F5;
     width: 200px;
-    height: 35px;
+    height: 42px;
     background-color: #F47684;
     text-align: center;
     display: block;
     line-height: 40px;
-    margin-left: 50px;
-    margin-top: 50px;
     border: 1px solid #F47684;
     transition: 0.8s;
     text-decoration: none;
+    box-shadow: 4px 4px #C35e69;
+    border-radius: 22px;
+
   
 }
 
@@ -288,52 +350,50 @@ h2{
     color: #F47684;
 }
 
-#article2 a.button{
-    font-size: 15px;
+
+.article img{
+    object-fit: cover;
+    height: 270px;
+    width: 270px;
 }
+
+
 
 #section4{
     width: 100%;
-    height:200px;
-    background-color:  #F1E8E3;
+    height:40px;
+    background-color:  #F47684;
     position: relative;
 }
 
-h2.sns{
-    position: absolute;
-    font-size: 50px;
-    width: 100px;
 
-    margin-left: 480px;
-    padding-top: 50px;
-
-    float: left;   
+.box4{
+    width: 10%;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+/*    background: red;*/
 }
 
 .logo{
-    width: 200;
-    margin-left: 600px;
-    padding-top: 23px;
-}
-
-
-.logo img{
+  font-size: 30px;
+  color:#F5F5F5;
     -webkit-transition: transform 0.4s;
     -o-transition: transform 0.4s;
     transition: transform 0.4s;
 }
 
-.logo img:hover{
+.logo:hover{
      -webkit-transform: translateY(-10%);
     -ms-transform: translateY(-10%);
     -ms-transform: translateY(-10%);
     -o-transform: translateY(-10%);
-    transform: translateY(-10%);
-    
+    transform: translateY(-10%);   
    
 }
 
-i
 /*
 .lowercontents{
     width: 800px;
